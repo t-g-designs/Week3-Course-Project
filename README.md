@@ -2,6 +2,10 @@
 
 The run_analysis.R file contains the script which will take all the raw data files and merge them into a tidy Dataset which can be used for analysis.
 
+**Note: run_analysis should be downloaded into the UCI HAR Dataset directory which contains the test and train sub-directories in order for the code to work. The UCI HAR Dataset should also be set as your working directory.**
+
+The following packages will need to be installed: *dplyr, data.table.* 
+
 Here is a list of all the steps that the code performs:
 
 ## Importing Data and Determining Structure
